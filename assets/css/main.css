@@ -806,8 +806,7 @@ section {
   background: none;
   font-size: 26px;
   line-height: 0;
-  background: rgba(var(--color-secondary-rgb), 0.4);
-  color: rgba(var(--color-white-rgb), 0.98);
+  color: var(--color-primary);
   border-radius: 50px;
   width: 54px;
   height: 54px;
@@ -1196,7 +1195,6 @@ section {
   inset: -60px 0 0 -60px;
   z-index: -1;
   content: "";
-  background: url("../img/about-bg.png") top left;
   background-repeat: no-repeat;
 }
 
