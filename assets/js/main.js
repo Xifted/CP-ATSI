@@ -139,18 +139,18 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Auto generate the hero carousel indicators
    */
-  let heroCarouselIndicators = document.querySelector('#hero .carousel-indicators');
-  if (heroCarouselIndicators) {
-    let heroCarouselItems = document.querySelectorAll('#hero .carousel-item')
+  // let heroCarouselIndicators = document.querySelector('#hero .carousel-indicators');
+  // if (heroCarouselIndicators) {
+  //   let heroCarouselItems = document.querySelectorAll('#hero .carousel-item')
 
-    heroCarouselItems.forEach((item, index) => {
-      if (index === 0) {
-        heroCarouselIndicators.innerHTML += `<li data-bs-target="#hero" data-bs-slide-to="${index}" class="active"></li>`;
-      } else {
-        heroCarouselIndicators.innerHTML += `<li data-bs-target="#hero" data-bs-slide-to="${index}"></li>`;
-      }
-    });
-  }
+  //   heroCarouselItems.forEach((item, index) => {
+  //     if (index === 0) {
+  //       heroCarouselIndicators.innerHTML += `<li data-bs-target="#hero" data-bs-slide-to="${index}" class="active"></li>`;
+  //     } else {
+  //       heroCarouselIndicators.innerHTML += `<li data-bs-target="#hero" data-bs-slide-to="${index}"></li>`;
+  //     }
+  //   });
+  // }
 
   /**
    * Scroll top button
